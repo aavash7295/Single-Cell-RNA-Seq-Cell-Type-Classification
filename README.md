@@ -200,6 +200,19 @@ figures/rank_genes_groups_leiden_marker_genes.png
 
 The analysis successfully identified diverse cellular populations within the breast cancer tumor microenvironment, including immune cells, stromal cells, endothelial cells, and multiple epithelial tumor cell populations. Marker gene analysis enabled biologically meaningful cell type annotation and visualization of tumor heterogeneity.
 
+## Data Availability
+
+The original count matrix (`count_matrix_sparse.mtx`) and processed AnnData object (`processed_single_cell_data.h5ad`) are not included in this repository due to GitHub file size limitations.
+
+The analysis pipeline can be run on publicly available single-cell RNA-seq datasets by providing:
+
+- count_matrix_sparse.mtx
+- count_matrix_barcodes.tsv
+- count_matrix_genes.tsv
+- metadata.csv
+
+Researchers may substitute their own datasets following the same file structure.
+
 ---
 
 ## Author
